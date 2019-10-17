@@ -1,16 +1,16 @@
-nav.navbar {
-    .navbar-nav{
-        .dropdown:hover > .dropdown-menu {
-            display: block;
-        }
-        .dropdown > .dropdown-toggle:active {
-            pointer-events: none;
-        }
-        .dropdown-menu {
-            margin-top: 5px;
-            @media screen and (max-width: 991px) {
-                display: block;
-            }
-        }
-    }
-}
+// nav.navbar {
+//     .navbar-nav{
+//         .dropdown:hover > .dropdown-menu {
+//             display: block;
+//         }
+//         .dropdown > .dropdown-toggle:active {
+//             pointer-events: none;
+//         }
+//         .dropdown-menu {
+//             margin-top: 5px;
+//             @media screen and (max-width: 991px) {
+//                 display: block;
+//             }
+//         }
+//     }
+// }
