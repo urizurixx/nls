@@ -1,13 +1,5 @@
 nav.navbar {
     .navbar-nav{
-        .dropdown {
-            a.nav-link:first-child::after {
-                content: ' \005E';
-                transform: translateY(-5px) rotate(180deg);
-                display: inline-block;
-                margin-left: 5px;
-            }
-        }
         .dropdown:hover > .dropdown-menu {
             display: block;
         }
@@ -15,6 +7,7 @@ nav.navbar {
             pointer-events: none;
         }
         .dropdown-menu {
+            margin-top: 5px;
             @media screen and (max-width: 991px) {
                 display: block;
             }
