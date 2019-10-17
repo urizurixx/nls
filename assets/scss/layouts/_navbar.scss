@@ -1,0 +1,28 @@
+nav.navbar {
+    .navbar-nav{
+        .active>a.nav-link {
+            color: $primary-color;
+            padding:10px;
+            border-bottom: 4px solid $primary-color;
+        }
+        .dropdown {
+            a.nav-link:first-child::after {
+                content: ' \005E';
+                transform: translateY(-5px) rotate(180deg);
+                display: inline-block;
+                margin-left: 5px;
+            }
+        }
+        .dropdown:hover > .dropdown-menu {
+            display: block;
+        }
+        .dropdown > .dropdown-toggle:active {
+            pointer-events: none;
+        }
+        .dropdown-menu {
+            @media screen and (max-width: 991px) {
+                display: block;
+            }
+        }
+    }
+}
