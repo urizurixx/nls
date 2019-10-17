@@ -1,34 +1,44 @@
 #thankyou {
 	.iCal {
 		display: block;
-	    background-color: $secondary-color;
-	    margin: 10px auto;
-	    padding: 2%;
-	    max-width: 333px;
-	    a {color: #fff;}
+		background-color: $secondary-color;
+		margin: 10px auto;
+		padding: 2%;
+		max-width: 333px;
+
+		a {
+			color: #fff;
+		}
 	}
-	.iCal:hover {background-color: $primary-color;}
+
+	.iCal:hover {
+		background-color: $primary-color;
+	}
+
 	.people {
 		background-image: url('/assets/images/businesspeople.jpg');
 		background-repeat: no-repeat;
-	    background-size: cover;
-	    text-align: center;
-	    padding: 4%;
+		background-size: cover;
+		text-align: center;
+		padding: 4%;
 	}
+
 	.light_bg {
 		padding: 3%;
 		margin: 1%;
 	}
+
 	button {
-		background-color:$secondary-color;
+		background-color: $secondary-color;
 		padding: 3%;
-	    width: 87%;
-	    margin: 5% 30px;
-	    text-transform: uppercase;
-	    font-weight: bold;
-	    font-size: 22px;
-	    color: #fff;
+		width: 87%;
+		margin: 5% 30px;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 22px;
+		color: #fff;
 	}
+
 	.counter_container {
 		background-color: #eee;
 		text-align: center;
@@ -41,6 +51,7 @@
 			font-size: 70px;
 			font-family: verdana;
 		}
+
 		p {
 			color: $primary-color;
 			text-transform: uppercase;
@@ -56,6 +67,7 @@
 	.blue_overlay {
 		padding: 15%;
 	}
+
 	.city_bg {
 		background-size: contain;
 	}
@@ -70,27 +82,31 @@
 		font-size: 60px;
 		margin-top: 0;
 	}
+
 	h4 {
 		color: $secondary-color;
 		text-align: center;
 		margin-bottom: 2px;
 		text-transform: uppercase;
 	}
+
 	.light_bg {
 		border-radius: 5px;
 		margin-bottom: 4%;
 		padding: 7%;
 	}
+
 	.blue_overlay {
 		background-color: #02080cba;
 		padding: 8%;
 	}
+
 	#DSGuest {
 		text-align: center;
-    	padding: 0 15%;
-}
+		padding: 0 15%;
 	}
-}
+
 	.container-fluid#guest_reg {
-		padding:0;
+		padding: 0;
 	}
+}
