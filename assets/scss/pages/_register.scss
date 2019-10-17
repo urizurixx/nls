@@ -1,0 +1,53 @@
+.cloudypants {
+	background-image: url(/assets/images/cloudypants.jpg);
+	background-color: $primary-color;
+}
+.hero-home .lead1 {
+	font-size: 50px;
+	line-height: 50px;
+	margin: 0;
+	padding: 0;
+}
+.free_gifts {
+	color:#000;
+	img {
+		max-width: 500px;
+	}
+}
+#register .dark_bg {
+	padding: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+.light_bg {
+	h4 {
+		font-size: 15px;
+		text-transform: uppercase;
+		color: $primary-color;
+	}
+
+	h3 {
+	font-size: 34px;
+	color: $primary-color;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-top: 8%;
+	}
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: bold;
+}
+.image_holder img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+.upcoming_event_card h3 {
+	text-transform: uppercase;
+}
+.upcoming_event_card:hover a div.image_holder .event_card_cover {
+    background-color: #225562;
+    color: #fff;
+}

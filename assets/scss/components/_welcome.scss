@@ -1,0 +1,112 @@
+.upcoming_event_card {
+    a {
+        div.image_holder {
+            position: relative;
+
+            img {
+                width: 100%;
+
+            }
+
+            .event_card_cover {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: $translucent;
+                color: $translucent;
+                text-align: center;
+                transition: all ease-in-out 0.3s;
+                span {
+                    font-size: 30px;
+                    position: absolute;
+                    left: 0;
+                    top: 40%;
+                    right: 0;
+                    bottom: 0;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        h3 {
+            text-align: center;
+
+        }
+    }
+}
+
+.upcoming_event_card:hover {
+    a {
+        div.image_holder {
+            .event_card_cover {
+                background-color: $primary-color;
+                color: $text-visible-on-primary;
+            }
+        }
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+}
+.blog_preview_card {
+    border-radius: 4px;
+    height: 100%;
+    margin-top: 20px
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media screen and (max-width: 766px) {
+    .blog_preview_card {
+        margin-top:20px;
+        height: 95%
+    }
+}
+
+.blog_preview_card img {
+    width: 100%
+}
+
+.blog_preview_card .blog_preview_card_body {
+    padding: 20px
+}
+
+.blog_preview_card .blog_preview_card_body h5.blog_preview_card_title {
+    font-size: 24px;
+    color: $secondary-color;
+}
+
+.blog_preview_card .blog_preview_card_body .blog_preview_card_text {
+    margin-top: 20px;
+    margin-bottom: 60px
+}
+
+.blog_preview_card .blog_preview_card_body a {
+    color: $secondary-color;
+}
+
+.blog_preview_card .blog_preview_card_body a.read_more {
+    position: absolute;
+    bottom: 0px
+}

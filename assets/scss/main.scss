@@ -1,0 +1,41 @@
+@import "common/variables";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+
+// Common
+@import "common/global";
+@import "common/mixins";
+@import "common/fonts";
+@import "common/animations";
+@import "common/mobile";
+
+// Layouts
+@import "layouts/header";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/regfooter";
+
+// Pages
+@import "pages/home";
+@import "pages/contact";
+@import "pages/blog";
+@import "pages/registration";
+@import "pages/register";
+@import "pages/about";
+@import "pages/login";
+@import "pages/thankyou";
+@import "pages/quickstart";
+@import "pages/faq";
+
+// Components
+@import "components/welcome";

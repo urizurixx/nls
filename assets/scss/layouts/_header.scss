@@ -1,0 +1,123 @@
+//Home page specific navigation style
+.hp-navbar {
+	background-color:#003763;
+	padding: 1% 0;
+
+	ul li a {
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 18px;
+		letter-spacing: 2px;
+	}
+	ul li {
+		color:#fff;
+		margin: 0 34px;
+	}
+	.dropdown-menu a {
+		color: #000;
+	}
+	.active {
+		background-color:$secondary-color;
+		color: #fff;
+	}
+	.navbar-toggler {margin-right: 5%;}
+}
+
+// All pages except homepage navigation
+
+.navbar-light {
+	background-color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-weight: bold;
+	color: #003762;
+	text-transform: uppercase;
+}
+#nav-normal {
+	margin-top: 15px;
+	.active {
+		border-top-style: solid;
+		border-top-color: #93c90e;
+		padding-bottom: 15px;
+		border-top-width: 5px;
+		margin-top: -5px;
+	}
+	li {
+		margin: 0 20px;
+	}
+}
+// General navigation style
+.navbar-brand {margin-right: auto;}
+.navbar-nav ul {
+    line-height: 10px;
+    margin-top: 10px;
+}
+.dropdown-menu {
+	top: 33px;
+
+	a {color: #000}
+	.dropdown-item {
+		margin-bottom: 5px;
+		text-transform: uppercase;
+		:hover {
+		background-color: #93c90e;
+		}
+	}
+}
+.dropdown-item:hover {color: $secondary-color;}
+.top {
+	background-color: #003762;
+	display: flex;
+	flex-wrap: wrap;
+
+	#contact_info i {
+		padding-right: .25rem;
+	}
+
+	.soc_icon i {
+		padding-right: 0;
+	}
+
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .show > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active {
+	color: #003762;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	:focus {
+		text-decoration: underline;
+	}
+
+}
+
+.navbar {
+	padding: 0;
+}
+
+#contact_info .fa {
+	color: #93c90e;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+#navbar {
+	z-index: 999;
+	border-color: #d8d8d8;
+	box-shadow: 0px 0px 38px 0px rgba(0, 0, 0, .1);
+	transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+}
+
+.sticky+.content {
+	padding-top: 60px;
+}
+

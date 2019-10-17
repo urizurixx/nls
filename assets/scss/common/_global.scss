@@ -1,0 +1,126 @@
+$font-stack: verdana, sans-serif;
+
+$primary-color: #003763;
+$primary-color-lighten-20: lighten($primary-color, 20%);
+$secondary-color: #93c90e;
+$text-visible-on-primary: #fff;
+
+$translucent: rgba(0, 0, 0, 0);
+
+body {
+	font-family: verdana;
+}
+
+a:hover {text-decoration: none;}
+.right { float: right;}
+.accent {
+	border-top-style: solid;
+    border-top-color: #93c90e;
+    padding-bottom: 15px;
+    border-top-width: 5px;
+}
+.thin {
+	border-top-width: 2px;
+}
+.accent_fifteen {
+	width: 15%;
+}
+.accent_fifty {
+	width: 50%;
+}
+.georgia {
+	font-family: "Georgia",Sans-serif;
+}
+.blue_overlay {
+    background-color: rgba(0,56,101,.73);
+    opacity: .92;
+    transition: background .3s,border-radius .3s,opacity .3s;
+}
+.city_bg {background-image: url(/assets/images/nls-citybg.jpg);}
+.green {color: #93C915;}
+.dark_bg {background-color:$primary-color}
+.light_bg {background-color: #fff;}
+.angle {
+	background-color: transparent;
+    background-image: linear-gradient(180deg,#003763 60%,#003763 100%);
+    text-align: center;
+    font-size: 48px;
+    font-family: verdana;
+
+    h2 {
+    	font-size: 48px;
+    	font-weight: bold;
+    	color: #fff;
+    }
+    a {
+    	color: $secondary-color;
+    }
+    .shape {
+    	    overflow: hidden;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    line-height: 0;
+    direction: ltr;
+    }
+}
+
+.wrap {
+  overflow: hidden;
+}
+.ribbon6 {
+    width: 148px;
+    height: 26px;
+    line-height: 23px;
+    position: absolute;
+    top: 23px;
+    right: -38px;
+    z-index: 2;
+    overflow: hidden;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+	color:#fff;
+    box-shadow: 0 0 0 3px $secondary-color, 0px 21px 5px -18px rgba(0, 0, 0, 0.6);
+    background: $secondary-color;
+    text-align: center;
+}
+
+.aligner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aligner-item {
+  max-width: 50%;
+}
+
+.aligner-item-top {
+  align-self: flex-start;
+}
+
+.aligner-item-bottom {
+  align-self: flex-end;
+}
+.oops {padding: 30px 0;}
+.caret:before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 97%;
+  border-top: 12px solid #fff;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+}
+.caret:after {
+  content: '';
+  position: absolute;
+  top: 34%;
+  left: 98%;
+  border-top: 11px solid $primary-color;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+}
+.caret:hover:before {
+  border-top-color: $secondary-color;
+}

@@ -1,0 +1,46 @@
+.blog_contr {
+	background-image: url('/assets/images/cityscape.jpg');
+	background-color: #003763;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 3% 0;
+	background-position: 0 0%;
+
+	h1 {
+		color: #fff;
+		font-size: 45px;
+		font-weight: 600;
+	}
+	h3 {
+		color: #93c90e;
+		font-size: 15px;
+	}
+}
+#blog_post {
+	.post {
+		h2 {
+			font-size: 17px;
+    		text-align: center;
+    		max-width: 88%;
+    	}
+	}
+}
+#posts {
+	h2 {
+		color: $secondary-color;
+		font-weight: 600;
+		font-family: verdana;
+		font-size: 18px;
+	}
+	 p {
+        font-size: 14px;
+        color: #777;
+    }
+    .read_more {
+        color: $secondary-color;
+    }
+    .blog_date {
+        color: #adadad;
+        font-size: 12px;
+   }
+}

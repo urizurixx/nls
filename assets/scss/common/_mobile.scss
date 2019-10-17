@@ -1,0 +1,149 @@
+
+/* Small devices (tablets, 768px and under) */
+@media (max-width: 768px) {
+    .navbar-text {
+        font-size:16px;
+        padding:5px;
+    }
+    .navbar-brand img {width: 100px;}
+    #nav-normal .active {
+        border-top-style: solid;
+        border-top-color: #93c90e;
+        padding-bottom: 0;
+        border-top-width: 5px;
+        margin-top: 0;
+        width: 23%;
+    }
+    #home {
+        text-align: center;
+        h1 {
+            text-align: center;
+            font-size:18px;
+            margin-bottom: 14px;
+        }
+        h2 {font-size: 34px;}
+        .accent {margin: 5% auto 0;}
+        .hero-home {
+            text-align:center;
+        }
+        .hero-home .lead1 {
+            text-align: center;
+            font-size: 44px;
+            line-height: 44px;
+        }
+        .hero-home .lead2 {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 14px;
+        }
+        .hero-home .about_button {text-align: center;}
+        .events_container h2 {font-size: 27px !important;}
+        .why img {display:none;}
+        .brand_owner img {
+            margin-bottom: 0;
+            width:100%;
+            }
+    }
+    #about {
+        padding: 5%;
+        h1 {font-size: 35px;}
+        h2 {font-size: 28px; padding: 5% 0;}
+    }
+    #registration_page {
+        .brand_owner img {
+            margin-bottom: 0;
+            width: 100%;
+        }
+        .event_info .free_gifts img {
+            width: 80%;
+        }
+        .event_info .row {
+            margin: 0;
+            padding: 0 15px;
+        }
+        .event_info {
+            padding: 4% 10px;
+        }
+        h5 {text-align: center;
+        font-size:18px;
+        margin-bottom: 14px;
+        }
+        h2 {font-size: 34px;}
+        .accent {margin: 5% auto 0;}
+        .hero-home .lead1 {
+            text-align: center;
+            font-size: 44px;
+            line-height: 44px;
+        }
+        .hero-home .lead2 {
+            font-size: 18px;
+            text-align: center;
+            margin-bottom: 14px;
+        }
+    }
+    .angle {
+            padding-bottom: 3%;
+            h2 {font-size: 34px;}
+        }
+    #thankyou {
+        h1 {
+            font-size: 30px;
+        }
+        button {margin: 20px 30px;}
+    }
+
+    #contact {
+        h3 {
+            line-height: 30px;
+        }
+    }
+    #login {
+        margin-bottom: 5%;
+    }
+    #quickstart {
+        img {
+            width: 100%;
+        }
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 1150px) and (min-width: 769px)  {
+    #home {
+        text-align: center;
+        h2 {font-size: 34px;}
+
+        .hero-home .lead1,
+        .hero-home .lead2 {
+            text-align: center;
+            font-size: 90px;
+            line-height: 100px;
+        }
+        .why img {display:none;}
+        .brand_owner {margin-bottom: 0}
+        .hero-home {
+        text-align:center;
+            }
+        }
+ }
+ @media screen and (max-width: 600px) {
+    .hero-home h1 {
+        font-size: 36px
+    }
+    .lead1 {
+    font-size: 44px;
+    padding-top: 3%;
+    }
+    .lead2 {font-size: 26px;}
+    .about_button, .reg_button {
+        display: block;
+        max-width: 64%;
+        margin: 0 auto 10px;
+    }
+    .brand_owner img {
+        max-width: 50%;
+    }
+    .navbar-brand {
+        padding-left: 5%;
+    }
+}

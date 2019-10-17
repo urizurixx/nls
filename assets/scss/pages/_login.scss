@@ -1,0 +1,42 @@
+#login  {
+	.dark_bg {padding: 5%;}
+	h2 {
+		color: #fff;
+		font-size: 48px;
+		font-family: verdana;
+	}
+	h3 {
+		text-transform: uppercase;
+		font-weight: bold;
+		text-align: center;
+		font-size: 35px;
+		padding: 15% 0 4%;
+	}
+	p {
+		color: #fff;
+	}
+
+	.restudent, .entstudent {
+		margin: 0 auto;
+	}
+
+	button {
+    	box-shadow: 6px 6px 10px 0px rgba(0,0,0,.5);
+    	background-color: $secondary-color;
+    	color: #fff;
+    	padding: 3% 6%;
+	}
+    .students button {
+        padding: 6% 19%;
+    }
+	a {
+		display: block;
+        margin: 0 auto;
+        text-align: center;
+	}
+}
+.mlogindiv {
+    border: 1px solid;
+    display: inline-block;
+    padding: 20px;
+}
