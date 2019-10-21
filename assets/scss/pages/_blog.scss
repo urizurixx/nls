@@ -44,3 +44,32 @@
         font-size: 12px;
    }
 }
+
+.blog_prev_container {
+    overflow: hidden;
+    max-width: 1200px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    .post {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        @media screen and (min-width: 768px) {
+            max-width: 33%;
+            max-height: 100%;
+            float: left;
+        }
+        a {
+            width: 100%;
+
+            img {
+                width: 100%;
+                max-height: 200px;
+            }
+        }
+    }
+}
