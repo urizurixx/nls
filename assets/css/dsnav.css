@@ -1093,7 +1093,12 @@ PRINT STYLES
     font-size: 16px;
     letter-spacing: 0px;
 }
-
+#rseat {
+    display: block;
+    margin: auto;
+    min-width: 65%;
+    font-size: 16px;
+}
 /** loader **/
 
 #loader {
