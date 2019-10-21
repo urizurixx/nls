@@ -8,7 +8,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 ========================================================== */
 
-html, button, input, select, textarea { color: #222; } body { font-size: 1em; line-height: 1.4; } ::-moz-selection { background: #ffbf00; text-shadow: none; } ::selection { background: #ffbf00; text-shadow: none; } hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; } img { vertical-align: middle; } fieldset { border: 0; margin: 0; padding: 0; } textarea { resize: vertical; } .chromeframe { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0; } a { text-decoration: none; } a:hover { color: #e0af00; }
+html, button, input, select, textarea { color: #222; } body { font-size: 1em; line-height: 1.4; } ::-moz-selection { background: #b3d4fc; text-shadow: none; } ::selection { background: #b3d4fc; text-shadow: none; } hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; } img { vertical-align: middle; } fieldset { border: 0; margin: 0; padding: 0; } textarea { resize: vertical; } .chromeframe { margin: 0.2em 0; background: #ccc; color: #000; padding: 0.2em 0; } a { text-decoration: none; } a:hover { color: #e0af00; }
 
 /* ==========================================================
 FONTS
@@ -77,13 +77,13 @@ GENERAL STYLES
     text-shadow: none;
     border: none;
     padding: 10px 20px;
-    font-family: "oswald", Helvetica, Arial, Verdana, sans-serif;
+    font-family: "Oswald", Helvetica, Arial, Verdana, sans-serif;
     box-shadow: #bbb 3px 3px 0px;
     /*Border radius*/
 
     
     /*Background*/
-    background: linear-gradient(#952422, #aa2927);
+    background: linear-gradient(#cd5928, #e15b29);
     
     /*Box shadow*/
 
@@ -94,15 +94,15 @@ GENERAL STYLES
     text-shadow: none;
     border:none;
     /*Background*/
-    background-color: #952422; /*Fallback*/
-    background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #952422), color-stop(1, #aa2927) );
-    background: -moz-linear-gradient( center top, #952422 20%, #aa2927 100% );
+    background-color: #cd5928; /*Fallback*/
+    background: -webkit-gradient( linear, left top, left bottom, color-stop(.2, #cd5928), color-stop(1, #e15b29) );
+    background: -moz-linear-gradient( center top, #cd5928 20%, #e15b29 100% );
     box-shadow: #aaa 5px 5px 0px;
 }
 
 
 .btnPill.x-btn {
-    background-color: #aa2927;
+    background-color: #cc5a28;
     box-shadow: none !important;
     font-size: 0.95em;
     letter-spacing: .5em;
@@ -120,7 +120,12 @@ GENERAL STYLES
 /* ==========================================================
 COMPONENT STYLES
 ========================================================== */
-
+.event-body label.timelist {
+    font-size: 16px;
+}
+.timelist input {
+    margin-right:5px;
+}
 .questions {
     color: #ffffff; text-align: center; text-transform: uppercase; letter-spacing: 1px;
     background-color: #67a6cb;
@@ -181,20 +186,20 @@ COMPONENT STYLES
     }
 
     .form-location.odd {
-        background-color: rgb(149, 36, 34);
+        background-color: #93c90e;
         margin-bottom: 10px;
         box-shadow: #bbb 3px 3px 0px;
     }
 
     .form-location.even {
-        background-color: rgb(94, 94, 94);
+        background-color: #023054;
         margin-bottom: 10px;
         box-shadow: #bbb 3px 3px 0px;
     }
 
 .form-location:hover {
     box-shadow: #aaaaaa 5px 5px 0px;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(41, 51, 73);
 }
 
 .form-location:active label, .form-location:focus label, .form-location:hover label {
@@ -1069,7 +1074,6 @@ PRINT STYLES
 
 .disabled {opacity:.4;}
 
-
 .infusion-field-input-container {border-color:#AFAAA9 !important;}
 
 .DSNavOuter {width:100%; text-align: center;}
@@ -1085,11 +1089,6 @@ PRINT STYLES
 .eventdate {
     font-size: 16px;
     letter-spacing: 0px;
-}
-#rseat{
-    display: block;
-    margin: auto;
-    min-width: 65%;
 }
 
 /** loader **/
