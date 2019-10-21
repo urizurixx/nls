@@ -7,7 +7,7 @@ window.onload = function () {
     const countUpOne = new CountUp('countUp1', 575, CountUpOptions);
     const countUpTwo = new CountUp('countUp2', 900, CountUpOptions);
     const countUpThree = new CountUp('countUp3', 96, CountUpOptions);
-    const countUpFour = new CountUp('countUp3', 100000, CountUpOptions);
+    const countUpFour = new CountUp('countUp4', 100000, CountUpOptions);
 
 
     countUpOne.start();
