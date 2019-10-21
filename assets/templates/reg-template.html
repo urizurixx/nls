@@ -15,7 +15,7 @@
 		Register for {{ file.title }} | Daymond John's Next Level Success
 	</title>
 	<link href="/assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/assets/css/main.css" rel="stylesheet">
+	<link href="/assets/css/main.css" rel="stylesheet">
 	<!-- Disable tap highlight on IE -->
 	<meta name="msapplication-tap-highlight" content="no">
 	<!-- Google Tag Manager -->
@@ -56,9 +56,7 @@
 								<p class="lead1">NEXT LEVEL SUCCESS</p>
 								<p class="lead2">multiple event locations</p>
 								<div class="reg_section" id="reg">
-									<link rel="stylesheet" type="text/css" media="all" href="/assets/css/DSnav.css" />
-									<link rel="stylesheet" type="text/css" media="all"
-										href="https://eventforms.zurixx.com/DSNavigationProd15/new.css" />
+									<link rel="stylesheet" type="text/css" media="all" href="/assets/css/dsnav.css" />
 									<div class="DSNavOuter">
 										<div id="DSNav" class="DSNavInner"></div>
 									</div>
@@ -86,7 +84,13 @@
 				<div class="row">
 					<div class="col">
 						<i class="far fa-lightbulb"></i>
-						<h3>SPOT OPPORTUNITIES</h3>
+						<h3 data-value="text" data-info="heading">
+							{{#if file.contentArray.[0]}}
+							{{ file.contentArray.[0] }}
+							{{else}}
+							SPOT OPPORTUNITIES
+							{{/if}}
+						</h3>
 						<p data-value="text" data-info="paragraph">
 							{{#if file.contentArray.[1]}}
 							{{ file.contentArray.[1] }}
@@ -98,23 +102,17 @@
 						</p>
 					</div>
 					<div class="col">
-						<i class="fas fa-university"></i>
-						<h3>SECURE FUNDING</h3>
-						<p data-value="text" data-info="paragraph">
-							{{#if file.contentArray.[1]}}
-							{{ file.contentArray.[1] }}
-							{{else}}
-							We’ll cover the funding options available to you. Most require little to no money out of
-							your own pocket.
-							{{/if}}
-						</p>
-					</div>
-					<div class="col">
 						<i class="fas fa-arrow-circle-right"></i>
-						<h3>TAKE ACTION</h3>
+						<h3 data-value="text" data-info="heading">
+							{{#if file.contentArray.[2]}}
+							{{ file.contentArray.[2] }}
+							{{else}}
+							TAKE ACTION
+							{{/if}}
+						</h3>
 						<p data-value="text" data-info="paragraph">
-							{{#if file.contentArray.[1]}}
-							{{ file.contentArray.[1] }}
+							{{#if file.contentArray.[3]}}
+							{{ file.contentArray.[3] }}​
 							{{else}}
 							Becoming a successful entrepreneur requires action. Learn how to create the attitude that
 							you can never be
@@ -124,14 +122,19 @@
 					</div>
 					<div class="col">
 						<i class="fas fa-home"></i>
-						<h3>INVEST IN REAL ESTATE</h3>
+						<h3 data-value="text" data-info="heading">
+							{{#if file.contentArray.[4]}}
+							{{ file.contentArray.[4] }}
+							{{else}}
+							INVEST IN REAL ESTATE
+							{{/if}}
+						</h3>
 						<p data-value="text" data-info="paragraph">
-							{{#if file.contentArray.[1]}}
-							{{ file.contentArray.[1] }}
+							{{#if file.contentArray.[5]}}
+							{{ file.contentArray.[5] }}​
 							{{else}}
 							Learn where to find properties, how to negotiate with contractors, when to buy, and how to
-							flip houses for
-							maximum profits.
+							flip houses for maximum profits.
 							{{/if}}
 						</p>
 					</div>
@@ -142,7 +145,7 @@
 						<img class="offers" src="/assets/images/Books-and-Track-1.png" />
 						<h3>"You Become What You Think About The Most" - Daymond John</h3>
 					</div>
-					<div class="col-lg-6">
+					<div class="col-lg-6 align-self-center">
 						<h4>TO BE A SHARK, YOU MUST FIRST LEARN TO SWIM.</h4>
 						<p>To be a true shark, it takes knowledge, know-how, and tools… which is why I am going to give
 							you 4 of my
@@ -245,8 +248,8 @@
 				PRODUCTIONS OR ANY OF ITS SERIES, SUBSIDIARIES, DIVISIONS OR AFFILIATES</p>
 		</div>
 	</footer>
-	<link rel="stylesheet" href="/assets/css/brands.min.css">
-    <script src="/assets/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+	<script src="/assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>
