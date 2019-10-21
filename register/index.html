@@ -11,9 +11,9 @@
     <meta name="description" content="Register Page">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"
   />
-    
+
     <title>
-        Register | Daymond John's Next Level Success
+        Register for an Event | Daymond John's Next Level Success
     </title>
     <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
         <link href="/assets/css/main.css" rel="stylesheet">
@@ -33,8 +33,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TT5MW4W"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    
-      <nav class="navbar navbar-expand-lg flex-column">
+
+    <nav  class="navbar navbar-expand-lg flex-column">
 
           <div class="container-fluid navbar-light" id="navbar">
               <div class="container">
@@ -65,17 +65,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                           <a class="nav-link" href="/login">Login</a>
                       </li>
                       <li class="dropdown nav-item active">
-                              <a class="nav-link dropdown-toggle" href="/register">Register</a>
-                              <div class="dropdown-menu">
-                                      <a class="dropdown-item" href="/register/no-current-events">No Current Events</a>
-                              </div>
+                              <a class="nav-link dropdown-toggle" href="/register">Register</a><div class="dropdown-menu"><a class="dropdown-item" href="/register/event-registration-norfolk.html">Norfolk,  VA</a><a class="dropdown-item" href="/register/event-registration-philadelphia.html">Philadelphia,  PA</a></div>
                       </li>
                   </ul>
-              </div>
-          </div>
-      </div>
-          </div>
-      </nav>
+              </nav>
       <main role="main" id="register">
         <div class="container-fluid dark_bg align-content-center">
         	<div class="row container light_bg">
@@ -103,34 +96,47 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       		</div>
       	</div>
         <div class="row">
-              {{#each file.upcomingEvent}}
                   <div class="col-12 col-xs-6 col-md-4">
                       <div class="upcoming_event_card">
-                          <a href="{{fileName}}">
+                          <a href="event-registration-norfolk.html">
                               <div class="image_holder">
                               <img
-                              srcset="/assets/images/${oneRegPost.image}-400.jpg 400w, /assets/images/\-800.jpg 800w" sizes="(max-width: 400px) 400px, (max-width: 900px) 800px" src="/assets/images/\.jpg" />
+                              srcset="/assets/images/event-registration-norfolk-400.jpg 400w, /assets/images/event-registration-norfolk-800.jpg 800w" sizes="(max-width: 400px) 400px, (max-width: 900px) 800px" src="/assets/images/event-registration-norfolk.jpg" />
                                   <div class="event_card_cover">
-                                      <span>{{headline}}</span>
+                                      <span>Norfolk,  VA</span>
                                   </div>
                               </div>
-                              <h3>{{headline}}</h3>
+                              <h3>Norfolk,  VA</h3>
                           </a>
                       </div>
                   </div>
-                {{/each}}
+                  <div class="col-12 col-xs-6 col-md-4">
+                      <div class="upcoming_event_card">
+                          <a href="event-registration-philadelphia.html">
+                              <div class="image_holder">
+                              <img
+                              srcset="/assets/images/event-registration-philadelphia-400.jpg 400w, /assets/images/event-registration-philadelphia-800.jpg 800w" sizes="(max-width: 400px) 400px, (max-width: 900px) 800px" src="/assets/images/event-registration-philadelphia.jpg" />
+                                  <div class="event_card_cover">
+                                      <span>Philadelphia,  PA</span>
+                                  </div>
+                              </div>
+                              <h3>Philadelphia,  PA</h3>
+                          </a>
+                      </div>
+                  </div>
     	</div>
       </main>
     <footer>
-      <div class="container">
-        <div class="row soc_icons justify-content-center">
-          <a href="https://www.facebook.com/Nextlvlsuccess/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-          <a href="https://twitter.com/Nextlvlsuccess" target="_blank"><i class="fab fa-twitter-square"></i></a>
-          <a href="https://www.instagram.com/nextlvlsuccess/" target="_blank"><i class="fab fa-instagram"></i></a>
-          <a href="https://www.pinterest.com/daymondjohns/" target="_blank"><i class="fab fa-pinterest-square"></i></a>
-          
-      </div>
-      </div>
+        <div class="container">
+            <div class="row soc_icons justify-content-center">
+                <a href="https://www.facebook.com/Nextlvlsuccess/" target="_blank"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/Nextlvlsuccess" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/nextlvlsuccess/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.pinterest.com/daymondjohns/" target="_blank"><i
+                        class="fab fa-pinterest-square"></i></a>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -150,7 +156,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <li class="nav-item">
                       <a class="nav-link" href="/privacy-policy">Privacy Policy</a>
                   </li>
-    
+
               </ul>
                 </div>
             </div>
