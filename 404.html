@@ -78,6 +78,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col">
                     <h1>Whoops!</h1>
                     <h3>The page you're looking for isn't here! If this seems to be a mistake, please contact us and let us know!</h3>
+                    <p>Otherwise, you should be redirected to our main register page in 7 seconds or you can click <a href="/register/index.html">here</a>.</p>
+                    <script>
+                        setTimeout(function() {
+                            window.location.replace('https://nextlevelsuccessevents.com/register/');
+                        }, 7000)
+                    </script>
                 </div>
             </div>
         </div>
