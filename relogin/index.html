@@ -79,44 +79,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     			<a href="/register"><button>REGISTER FOR A FREE EVENT</button></a>
     		</div>
     		<div class="col aligner">
-    			<center>
     				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         			<script type="text/javascript" src="https://orc.yourcoachingline.com/login.js"></script>
        
      				<link rel="stylesheet" href="https://orc.yourcoachingline.com/style.css">
-    			    <div class="mlogindiv">
     			    <form action="" name="mloginform" id="mloginform" method="post">    
-    			        <table class="mlogintable">
-    			            <tr>
-    			                <td>Username</td>
-    			                <td><input type="text" id="username" name="username" /></td>
-    			            </tr>
-    			            <tr>
-    			                <td>Password</td>
-    			                <td><input type="password" id="password" name="password" /></td>
-    			            </tr>
-    			                <tr>
-    			                 <td colspan="2">
-    			                    <input type="submit" name="submit" id="mlogin" onclick="login(); return false;" value="Login" />
-    			                    <input type="submit" name="submit" id="hidelog" value="HIDELOG" style="display:none;" />    
-    			                </td>                
-    			            </tr>
-    			            <tr>
-    			                <td colspan="1">
-    			                <td><a href="https://yourcoachingline.com/login/forgot_password.php"><font size="2">Forgot Login Credentials</font></a></td>
-    			                </tr>
-    			            <tr>
-    			                <td colspan="2">
-    			                    <input type="text" name="refUrl" id="refUrl" value="" style="display:none;"/>
-    			                    <span id="msg"></span>
-    			                </td>                
-    			            </tr>
-    			        </table>        
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password"
+                                placeholder="Password">
+                        </div>
+                        <input type="submit" name="submit" id="mlogin" onclick="login(); return false;" value="Login"  class="btn btn-primary"/>
+                        <input type="submit" name="submit" id="hidelog" value="HIDELOG" style="display:none;" />   
+                        <a href="https://yourcoachingline.com/login/forgot_password.php">Forgot Login Credentials</a>    
     			    </form>
-    			    </div>
-    			</center>
     		    <script>
-    		    // var ycl_purchaseRedirect = 'https://nextlevelsuccessevents.com';
     		    </script>
     		</div>
     	</div>
