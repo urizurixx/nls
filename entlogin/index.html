@@ -79,41 +79,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     			<a href="/register"><button>REGISTER FOR A FREE EVENT</button></a>
     		</div>
     		<div class="col aligner">
-                    <script
-                    src="https://code.jquery.com/jquery-3.4.1.min.js"
-                    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-                    crossorigin="anonymous"></script>
-    			<script src="https://orc.nextlevelsuccessevents.com/login.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    			<script type="text/javascript" src="https://orc.nextlevelsuccessevents.com/login.js"></script>
     		    <div class="mlogindiv">
     		        <div id="ec_msg" style="text-align: center; color:red;"></div>
-    		        <form action="https://edcenter.nextlevelsuccessevents.com/login/index.php" name="mloginform" id="ec_mloginform" method="post" _lpchecked="1">
-    		            <table class="mlogintable">
-    		                <tbody>
-    		                <tr>
-    		                    <td>Username</td>
-    		                    <td><input type="text" id="username" name="username" style="outline: none; "></td>
-    		                </tr>
-    		                <tr>
-    		                    <td>Password</td>
-    		                    <td><input type="password" id="password" name="password" autocomplete="off"></td>
-    		                </tr>
-    		                <tr>
-    		                    <td colspan="2"> <input name="Submit" id="ec_subBTN" value="Login" type="submit" /><br> <input type="submit" name="submit" id="ec_hidelog" value="HIDELOG" style="display:none;"></td>
-    		                </tr>
-    		                <tr>
-    		                    <td colspan="1"></td>
-    		                    <td><a href="https://edcenter.nextlevelsuccessevents.com/login/forgot_password.php">Forgot Login Credentials</a></td>
-    		                </tr>
-    		                <tr id="forgotPassword" style="display: none;">
-    		                    <td colspan="1"></td>
-    		                    <td>
-    		                        <input type="email" id="ec_email" name="email">
-    		                        <br>
-    		                        <input name="Submit" value="Login" type="submit" />
-    		                    </td>
-    		                </tr>
-    		                </tbody>
-    		            </table>
+                    <form action="https://edcenter.nextlevelsuccessevents.com/login/index.php" name="mloginform" id="ec_mloginform" method="post" _lpchecked="1">
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" name="username"
+                                placeholder="Username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" name="password"
+                                placeholder="Password">
+                        </div>
+                        <a href="https://edcenter.nextlevelsuccessevents.com/login/forgot_password.php">Forgot Login Credentials</a>
     		        </form>
     		    </div>
     		</div>
